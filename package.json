@@ -1,0 +1,36 @@
+{
+  "name": "alligator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "coveralls": "^3.1.1",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.11.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "ethereumjs-util": "^7.1.4",
+    "ethjs-abi": "^0.2.1",
+    "ganache-cli": "^6.12.2",
+    "solidity-coverage": "^0.7.20",
+    "solium": "^1.2.5",
+    "truffle": "^5.5.5",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3-utils": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
